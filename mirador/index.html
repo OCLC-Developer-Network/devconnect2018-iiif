@@ -37,17 +37,12 @@
   <h2>The following viewer has been added using default settings.</h2>
   <div id="viewer" allowfullscreen="allowfullscreen"></div>
   <script type="text/javascript">
-    $(function () {
-      Mirador({
-        id: "viewer",
-        data: [{ manifestUri: "https://sandbox.contentdm.oclc.org/digital/iiif-info/p10010coll1/28", location: "Sandbox" }],
-        windowObjects: [{
-          loadedManifest: "https://sandbox.contentdm.oclc.org/digital/iiif-info/p10010coll1/28",
-          canvasID: "https://cdm10010.contentdm.oclc.org/digital/iiif/p10010coll1/18/canvas/c0",
-          viewType: "BookView"
-        }]
+      $(function() {
+        Mirador({
+          id: "viewer",
+          data: [/* Manifests and collections here *]
+        });
       });
-    });
   </script>
 </body>
 
